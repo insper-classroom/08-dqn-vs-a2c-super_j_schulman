@@ -39,3 +39,16 @@ Na figura abaixo (gerada pelo tensorboard) é possível ver a comparação entre
 ## Conclusão
 
 O estudo comparativo entre os algoritmos A2C e DQN mostrou que o A2C apresenta um desempenho superior em todos os ambientes testados. O DQN, embora seja um algoritmo popular, apresentou uma curva de aprendizado mais lenta e uma recompensa média menor ao longo do tempo. Isso sugere que o A2C pode ser uma escolha mais eficaz para os ambientes de simulação escolhidos para o estudo presente.
+
+## Organização
+
+Os códigos nos quais os resultados foram obtidos estão nos seguintes arquivos:
+
+- `sb3_breakout.py`: Código para treinamento e teste do algoritmo A2C e DQN no ambiente Breakout-v5.
+- `sb3_cartpole.py`: Código para treinamento e teste do algoritmo A2C e DQN  no ambiente CartPole-v1.
+- `sb3_lunarlander.py`: Código para treinamento e teste do algoritmo A2C e DQN  no ambiente LunarLander-v3.
+- `sb3_a2c.py`: Código de exemplo de aulas de A2C.
+
+Os modelos salvos estão na pasta `saved_models/`.
+
+Os resultados dos eventos de treinamento estão na pasta `results/`.
